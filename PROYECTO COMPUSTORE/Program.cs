@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PROYECTO_TELESHOPPING
+namespace PROYECTO_COMPUSTORE
 {
     internal static class Program
     {

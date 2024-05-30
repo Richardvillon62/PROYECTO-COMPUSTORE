@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace PROYECTO_TELESHOPPING.Properties
+namespace PROYECTO_COMPUSTORE.Properties
 {
 
 

@@ -1,4 +1,4 @@
-﻿namespace PROYECTO_TELESHOPPING
+﻿namespace PROYECTO_COMPUSTORE
 {
     partial class FormMenuPrincipal
     {
@@ -571,7 +571,7 @@
             this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox2.Image = global::PROYECTO_TELESHOPPING.Properties.Resources.LOGO2;
+            this.pictureBox2.Image = global::PROYECTO_COMPUSTORE.Properties.Resources.LOGO2;
             this.pictureBox2.Location = new System.Drawing.Point(153, 82);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(404, 296);
@@ -582,7 +582,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = global::PROYECTO_TELESHOPPING.Properties.Resources.LOGO1__2_;
+            this.pictureBox1.Image = global::PROYECTO_COMPUSTORE.Properties.Resources.LOGO1__2_;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(226, 99);

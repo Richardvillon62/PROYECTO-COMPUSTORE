@@ -16,7 +16,7 @@ using MODULO_FACTURA;
 using DATOS_TSP;
 
 
-namespace PROYECTO_TELESHOPPING
+namespace PROYECTO_COMPUSTORE
 {
     public partial class FormMenuPrincipal : Form
     {

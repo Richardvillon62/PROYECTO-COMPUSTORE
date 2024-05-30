@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using DATOS_TSP;
 using MODULO_USUARIO;
 
-namespace PROYECTO_TELESHOPPING
+namespace PROYECTO_COMPUSTORE
 {
     public partial class FormLogin : Form
     {
