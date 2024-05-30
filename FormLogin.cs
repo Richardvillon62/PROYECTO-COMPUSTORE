@@ -27,6 +27,8 @@ namespace PROYECTO_TELESHOPPING
 
         }
 
+        public static string getdata() { return "hola"; }
+
         private void label1_Click(object sender, EventArgs e)
         {
 
