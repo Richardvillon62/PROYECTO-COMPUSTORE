@@ -50,19 +50,19 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(266, 18);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(166, 25);
+            this.label1.Size = new System.Drawing.Size(182, 25);
             this.label1.TabIndex = 10;
             this.label1.Text = "Eliminar usuario";
             // 
             // btnBuscarUsuario
             // 
-            this.btnBuscarUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnBuscarUsuario.BackColor = System.Drawing.Color.Moccasin;
             this.btnBuscarUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBuscarUsuario.Location = new System.Drawing.Point(216, 99);
+            this.btnBuscarUsuario.Location = new System.Drawing.Point(236, 99);
             this.btnBuscarUsuario.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btnBuscarUsuario.Name = "btnBuscarUsuario";
             this.btnBuscarUsuario.Size = new System.Drawing.Size(112, 31);
@@ -133,7 +133,7 @@
             this.txtCorreoBuscar.Location = new System.Drawing.Point(11, 105);
             this.txtCorreoBuscar.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtCorreoBuscar.Name = "txtCorreoBuscar";
-            this.txtCorreoBuscar.Size = new System.Drawing.Size(186, 20);
+            this.txtCorreoBuscar.Size = new System.Drawing.Size(221, 20);
             this.txtCorreoBuscar.TabIndex = 31;
             // 
             // button3
@@ -224,7 +224,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(184)))), ((int)(((byte)(168)))));
+            this.BackColor = System.Drawing.Color.LightBlue;
             this.ClientSize = new System.Drawing.Size(685, 406);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txtIngreseId);
