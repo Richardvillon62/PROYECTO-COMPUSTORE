@@ -19,7 +19,7 @@ namespace DATOS_TSP
         /*Metodo static que retorna toda la clase*/
         public static Dato_ts getObject()
         {
-            return datos_compustore;
+            return datos_compustore;//comentario
         }
 
         /*SE CREA UNA IMPORTACION DE CONEXION POR CADA METODO DE CADA CLASE*/
