@@ -22,8 +22,6 @@ namespace DATOS_TSP
             return datos_compustore;
         }
 
-        public static string getdata() { return "hola"; }
-
         /*SE CREA UNA IMPORTACION DE CONEXION POR CADA METODO DE CADA CLASE*/
 
         /*Metodo StoredProcedure con parametros para insertar usuario*/
