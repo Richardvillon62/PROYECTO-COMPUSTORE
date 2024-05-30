@@ -96,6 +96,7 @@
             // 
             // btnFactura
             // 
+            this.btnFactura.BackColor = System.Drawing.Color.DarkSlateGray;
             this.btnFactura.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnFactura.FlatAppearance.BorderSize = 0;
             this.btnFactura.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -107,7 +108,7 @@
             this.btnFactura.TabIndex = 11;
             this.btnFactura.Text = "FACTURA";
             this.btnFactura.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnFactura.UseVisualStyleBackColor = true;
+            this.btnFactura.UseVisualStyleBackColor = false;
             this.btnFactura.Click += new System.EventHandler(this.btnFactura_Click);
             // 
             // panelSubmenuCompra
@@ -124,6 +125,7 @@
             // 
             // btnEliminarCompra
             // 
+            this.btnEliminarCompra.BackColor = System.Drawing.Color.Teal;
             this.btnEliminarCompra.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnEliminarCompra.FlatAppearance.BorderSize = 0;
             this.btnEliminarCompra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -137,11 +139,12 @@
             this.btnEliminarCompra.TabIndex = 2;
             this.btnEliminarCompra.Text = "Eliminar";
             this.btnEliminarCompra.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEliminarCompra.UseVisualStyleBackColor = true;
+            this.btnEliminarCompra.UseVisualStyleBackColor = false;
             this.btnEliminarCompra.Click += new System.EventHandler(this.btnEliminarCompra_Click);
             // 
             // btnModificarCompra
             // 
+            this.btnModificarCompra.BackColor = System.Drawing.Color.Teal;
             this.btnModificarCompra.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnModificarCompra.FlatAppearance.BorderSize = 0;
             this.btnModificarCompra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -155,11 +158,12 @@
             this.btnModificarCompra.TabIndex = 1;
             this.btnModificarCompra.Text = "Modificar";
             this.btnModificarCompra.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnModificarCompra.UseVisualStyleBackColor = true;
+            this.btnModificarCompra.UseVisualStyleBackColor = false;
             this.btnModificarCompra.Click += new System.EventHandler(this.btnModificarCompra_Click);
             // 
             // btnRegistrarCompra
             // 
+            this.btnRegistrarCompra.BackColor = System.Drawing.Color.Teal;
             this.btnRegistrarCompra.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnRegistrarCompra.FlatAppearance.BorderSize = 0;
             this.btnRegistrarCompra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -173,11 +177,12 @@
             this.btnRegistrarCompra.TabIndex = 0;
             this.btnRegistrarCompra.Text = "Regristar";
             this.btnRegistrarCompra.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRegistrarCompra.UseVisualStyleBackColor = true;
+            this.btnRegistrarCompra.UseVisualStyleBackColor = false;
             this.btnRegistrarCompra.Click += new System.EventHandler(this.btnRegistrarCompra_Click);
             // 
             // btnCompra
             // 
+            this.btnCompra.BackColor = System.Drawing.Color.DarkSlateGray;
             this.btnCompra.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnCompra.FlatAppearance.BorderSize = 0;
             this.btnCompra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -189,7 +194,7 @@
             this.btnCompra.TabIndex = 9;
             this.btnCompra.Text = "ORDEN DE COMPRA";
             this.btnCompra.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCompra.UseVisualStyleBackColor = true;
+            this.btnCompra.UseVisualStyleBackColor = false;
             this.btnCompra.Click += new System.EventHandler(this.btnCompra_Click);
             // 
             // panelSubmenuTransporte
@@ -206,6 +211,7 @@
             // 
             // btnEliminarEmpresa
             // 
+            this.btnEliminarEmpresa.BackColor = System.Drawing.Color.Teal;
             this.btnEliminarEmpresa.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnEliminarEmpresa.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnEliminarEmpresa.FlatAppearance.BorderSize = 0;
@@ -220,11 +226,12 @@
             this.btnEliminarEmpresa.TabIndex = 2;
             this.btnEliminarEmpresa.Text = "Eliminar";
             this.btnEliminarEmpresa.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEliminarEmpresa.UseVisualStyleBackColor = true;
+            this.btnEliminarEmpresa.UseVisualStyleBackColor = false;
             this.btnEliminarEmpresa.Click += new System.EventHandler(this.btnEliminarEmpresa_Click);
             // 
             // btnModificarEmpresa
             // 
+            this.btnModificarEmpresa.BackColor = System.Drawing.Color.Teal;
             this.btnModificarEmpresa.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnModificarEmpresa.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnModificarEmpresa.FlatAppearance.BorderSize = 0;
@@ -239,11 +246,12 @@
             this.btnModificarEmpresa.TabIndex = 1;
             this.btnModificarEmpresa.Text = "Modificar";
             this.btnModificarEmpresa.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnModificarEmpresa.UseVisualStyleBackColor = true;
+            this.btnModificarEmpresa.UseVisualStyleBackColor = false;
             this.btnModificarEmpresa.Click += new System.EventHandler(this.btnModificarEmpresa_Click);
             // 
             // btnRegistrarEmpresa
             // 
+            this.btnRegistrarEmpresa.BackColor = System.Drawing.Color.Teal;
             this.btnRegistrarEmpresa.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRegistrarEmpresa.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnRegistrarEmpresa.FlatAppearance.BorderSize = 0;
@@ -258,11 +266,12 @@
             this.btnRegistrarEmpresa.TabIndex = 0;
             this.btnRegistrarEmpresa.Text = "Regristar";
             this.btnRegistrarEmpresa.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRegistrarEmpresa.UseVisualStyleBackColor = true;
+            this.btnRegistrarEmpresa.UseVisualStyleBackColor = false;
             this.btnRegistrarEmpresa.Click += new System.EventHandler(this.btnRegistrarEmpresa_Click);
             // 
             // btnTransporte
             // 
+            this.btnTransporte.BackColor = System.Drawing.Color.DarkSlateGray;
             this.btnTransporte.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnTransporte.FlatAppearance.BorderSize = 0;
             this.btnTransporte.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -274,7 +283,7 @@
             this.btnTransporte.TabIndex = 7;
             this.btnTransporte.Text = "EMPRESA DE TRANSPORTE";
             this.btnTransporte.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTransporte.UseVisualStyleBackColor = true;
+            this.btnTransporte.UseVisualStyleBackColor = false;
             this.btnTransporte.Click += new System.EventHandler(this.btnTransporte_Click);
             // 
             // panelSubmenuCatalogo
@@ -291,6 +300,7 @@
             // 
             // btnEliminarProducto
             // 
+            this.btnEliminarProducto.BackColor = System.Drawing.Color.Teal;
             this.btnEliminarProducto.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnEliminarProducto.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnEliminarProducto.FlatAppearance.BorderSize = 0;
@@ -305,11 +315,12 @@
             this.btnEliminarProducto.TabIndex = 2;
             this.btnEliminarProducto.Text = "Eliminar";
             this.btnEliminarProducto.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEliminarProducto.UseVisualStyleBackColor = true;
+            this.btnEliminarProducto.UseVisualStyleBackColor = false;
             this.btnEliminarProducto.Click += new System.EventHandler(this.btnEliminarProducto_Click);
             // 
             // btnModificarProducto
             // 
+            this.btnModificarProducto.BackColor = System.Drawing.Color.Teal;
             this.btnModificarProducto.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnModificarProducto.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnModificarProducto.FlatAppearance.BorderSize = 0;
@@ -324,11 +335,12 @@
             this.btnModificarProducto.TabIndex = 1;
             this.btnModificarProducto.Text = "Modificar";
             this.btnModificarProducto.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnModificarProducto.UseVisualStyleBackColor = true;
+            this.btnModificarProducto.UseVisualStyleBackColor = false;
             this.btnModificarProducto.Click += new System.EventHandler(this.btnModificarProducto_Click);
             // 
             // btnRegistrarProducto
             // 
+            this.btnRegistrarProducto.BackColor = System.Drawing.Color.Teal;
             this.btnRegistrarProducto.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRegistrarProducto.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnRegistrarProducto.FlatAppearance.BorderSize = 0;
@@ -343,11 +355,12 @@
             this.btnRegistrarProducto.TabIndex = 0;
             this.btnRegistrarProducto.Text = "Regristar";
             this.btnRegistrarProducto.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRegistrarProducto.UseVisualStyleBackColor = true;
+            this.btnRegistrarProducto.UseVisualStyleBackColor = false;
             this.btnRegistrarProducto.Click += new System.EventHandler(this.btnRegistrarProducto_Click);
             // 
             // btnCatalogo
             // 
+            this.btnCatalogo.BackColor = System.Drawing.Color.DarkSlateGray;
             this.btnCatalogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnCatalogo.FlatAppearance.BorderSize = 0;
             this.btnCatalogo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -359,7 +372,7 @@
             this.btnCatalogo.TabIndex = 5;
             this.btnCatalogo.Text = "PRODUCTOS DE CATALOGO";
             this.btnCatalogo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCatalogo.UseVisualStyleBackColor = true;
+            this.btnCatalogo.UseVisualStyleBackColor = false;
             this.btnCatalogo.Click += new System.EventHandler(this.btnCatalogo_Click);
             // 
             // panelSubmenuProveedor
@@ -376,6 +389,7 @@
             // 
             // btnEliminarProveedor
             // 
+            this.btnEliminarProveedor.BackColor = System.Drawing.Color.Teal;
             this.btnEliminarProveedor.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnEliminarProveedor.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnEliminarProveedor.FlatAppearance.BorderSize = 0;
@@ -390,11 +404,12 @@
             this.btnEliminarProveedor.TabIndex = 2;
             this.btnEliminarProveedor.Text = "Eliminar";
             this.btnEliminarProveedor.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEliminarProveedor.UseVisualStyleBackColor = true;
+            this.btnEliminarProveedor.UseVisualStyleBackColor = false;
             this.btnEliminarProveedor.Click += new System.EventHandler(this.btnEliminarProveedor_Click);
             // 
             // btnModificarProveedor
             // 
+            this.btnModificarProveedor.BackColor = System.Drawing.Color.Teal;
             this.btnModificarProveedor.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnModificarProveedor.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnModificarProveedor.FlatAppearance.BorderSize = 0;
@@ -409,11 +424,12 @@
             this.btnModificarProveedor.TabIndex = 1;
             this.btnModificarProveedor.Text = "Modificar";
             this.btnModificarProveedor.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnModificarProveedor.UseVisualStyleBackColor = true;
+            this.btnModificarProveedor.UseVisualStyleBackColor = false;
             this.btnModificarProveedor.Click += new System.EventHandler(this.btnModificarProveedor_Click);
             // 
             // btnRegistrarProveedor
             // 
+            this.btnRegistrarProveedor.BackColor = System.Drawing.Color.Teal;
             this.btnRegistrarProveedor.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRegistrarProveedor.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnRegistrarProveedor.FlatAppearance.BorderSize = 0;
@@ -428,11 +444,12 @@
             this.btnRegistrarProveedor.TabIndex = 0;
             this.btnRegistrarProveedor.Text = "Regristar";
             this.btnRegistrarProveedor.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRegistrarProveedor.UseVisualStyleBackColor = true;
+            this.btnRegistrarProveedor.UseVisualStyleBackColor = false;
             this.btnRegistrarProveedor.Click += new System.EventHandler(this.btnRegistrarProveedor_Click);
             // 
             // btnProveedor
             // 
+            this.btnProveedor.BackColor = System.Drawing.Color.DarkSlateGray;
             this.btnProveedor.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnProveedor.FlatAppearance.BorderSize = 0;
             this.btnProveedor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -444,12 +461,12 @@
             this.btnProveedor.TabIndex = 3;
             this.btnProveedor.Text = "PROVEEDOR";
             this.btnProveedor.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnProveedor.UseVisualStyleBackColor = true;
+            this.btnProveedor.UseVisualStyleBackColor = false;
             this.btnProveedor.Click += new System.EventHandler(this.btnProveedor_Click);
             // 
             // panelSubmenuUsuario
             // 
-            this.panelSubmenuUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(121)))), ((int)(((byte)(129)))));
+            this.panelSubmenuUsuario.BackColor = System.Drawing.Color.Teal;
             this.panelSubmenuUsuario.Controls.Add(this.btnEliminarUsuario);
             this.panelSubmenuUsuario.Controls.Add(this.btnModificarUsuario);
             this.panelSubmenuUsuario.Controls.Add(this.btnRegistrarUsuario);
@@ -480,6 +497,7 @@
             // 
             // btnModificarUsuario
             // 
+            this.btnModificarUsuario.BackColor = System.Drawing.Color.Teal;
             this.btnModificarUsuario.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnModificarUsuario.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnModificarUsuario.FlatAppearance.BorderSize = 0;
@@ -494,11 +512,12 @@
             this.btnModificarUsuario.TabIndex = 1;
             this.btnModificarUsuario.Text = "Modificar";
             this.btnModificarUsuario.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnModificarUsuario.UseVisualStyleBackColor = true;
+            this.btnModificarUsuario.UseVisualStyleBackColor = false;
             this.btnModificarUsuario.Click += new System.EventHandler(this.btnModificarUsuario_Click);
             // 
             // btnRegistrarUsuario
             // 
+            this.btnRegistrarUsuario.BackColor = System.Drawing.Color.Teal;
             this.btnRegistrarUsuario.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRegistrarUsuario.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnRegistrarUsuario.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -514,11 +533,12 @@
             this.btnRegistrarUsuario.TabIndex = 0;
             this.btnRegistrarUsuario.Text = "Regristar";
             this.btnRegistrarUsuario.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRegistrarUsuario.UseVisualStyleBackColor = true;
+            this.btnRegistrarUsuario.UseVisualStyleBackColor = false;
             this.btnRegistrarUsuario.Click += new System.EventHandler(this.btnRegistrarUsuario_Click);
             // 
             // btnUsuario
             // 
+            this.btnUsuario.BackColor = System.Drawing.Color.DarkSlateGray;
             this.btnUsuario.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnUsuario.FlatAppearance.BorderSize = 0;
             this.btnUsuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -530,7 +550,7 @@
             this.btnUsuario.TabIndex = 1;
             this.btnUsuario.Text = "USUARIO";
             this.btnUsuario.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnUsuario.UseVisualStyleBackColor = true;
+            this.btnUsuario.UseVisualStyleBackColor = false;
             this.btnUsuario.Click += new System.EventHandler(this.btnUsuario_Click);
             // 
             // panelLogo
@@ -554,7 +574,7 @@
             // 
             // panelContenedor
             // 
-            this.panelContenedor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(213)))), ((int)(((byte)(219)))));
+            this.panelContenedor.BackColor = System.Drawing.Color.LightBlue;
             this.panelContenedor.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelContenedor.Controls.Add(this.pictureBox2);
             this.panelContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -571,7 +591,7 @@
             this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox2.Image = global::PROYECTO_COMPUSTORE.Properties.Resources.LOGO2;
+            this.pictureBox2.Image = global::PROYECTO_TELESHOPPING.Properties.Resources.proveedor;
             this.pictureBox2.Location = new System.Drawing.Point(153, 82);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(404, 296);
@@ -581,8 +601,9 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.Color.LightBlue;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = global::PROYECTO_COMPUSTORE.Properties.Resources.LOGO1__2_;
+            this.pictureBox1.Image = global::PROYECTO_TELESHOPPING.Properties.Resources.LOGO1__2_;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(226, 99);
