@@ -63,6 +63,11 @@ namespace MODULO_USUARIO
         {
             this.Close();
         }
+
+        private void FormModificarUsuario_Load(object sender, EventArgs e)
+        {
+
+        }
     }
     
 }
