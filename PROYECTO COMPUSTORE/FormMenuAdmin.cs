@@ -7,7 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MODULO_USUARIO;
+using MODULO_PROVEEDOR;
+using MODULO_EMPRESA_DE_TRANSPORTE;
+using MODULO_PRODUCTOS_DE_CATALOGO;
 
+
+/*GRUPO C*/
 namespace PROYECTO_COMPUSTORE
 {
     public partial class FormMenuAdmin : Form
