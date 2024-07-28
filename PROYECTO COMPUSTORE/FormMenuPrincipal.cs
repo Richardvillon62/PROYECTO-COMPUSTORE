@@ -219,5 +219,12 @@ namespace PROYECTO_COMPUSTORE
         {
 
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormLogin login = new FormLogin();
+            login.Show();
+        }
     }
 }

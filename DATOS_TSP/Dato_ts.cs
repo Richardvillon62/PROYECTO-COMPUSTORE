@@ -32,13 +32,13 @@ namespace DATOS_TSP
 
             return conexion;
         }
-        private static Dato_ts datos_teleshopping = new Dato_ts();
+        private static Dato_ts datos_COMPUSTORE = new Dato_ts();
         /*Constructor*/
         public Dato_ts() { }
         /*Metodo static que retorna toda la clase*/
         public static Dato_ts getObject()
         {
-            return datos_teleshopping;
+            return datos_COMPUSTORE;
         }
 
 
