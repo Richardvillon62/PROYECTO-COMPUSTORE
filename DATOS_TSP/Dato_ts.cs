@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing;
 
-/*GRUPO D*/
+/*GRUPO C*/
 namespace DATOS_TSP
 {
     public class Dato_ts
