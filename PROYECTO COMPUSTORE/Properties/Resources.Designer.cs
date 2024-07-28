@@ -63,6 +63,16 @@ namespace PROYECTO_TELESHOPPING.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cierre {
+            get {
+                object obj = ResourceManager.GetObject("cierre", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap INICIO {
             get {
                 object obj = ResourceManager.GetObject("INICIO", resourceCulture);
