@@ -21,7 +21,6 @@ namespace PROYECTO_COMPUSTORE
     public partial class FormMenuPrincipal : Form
     {
        
-
         public FormMenuPrincipal()
         {
             InitializeComponent();
@@ -35,8 +34,6 @@ namespace PROYECTO_COMPUSTORE
             panelSubmenuCatalogo.Visible = false;
             panelSubmenuTransporte.Visible = false;
             panelSubmenuCompra.Visible = false;
-            
-
         }
 
         private void hideSubMenu()
