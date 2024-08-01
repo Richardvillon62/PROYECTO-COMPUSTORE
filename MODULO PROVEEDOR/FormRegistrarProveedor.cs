@@ -25,7 +25,7 @@ namespace MODULO_PROVEEDOR
         {
             try
             {
-                datos.InsertarProveedor(txtNombre.Text, int.Parse(txtRuc.Text), txtCorreo.Text, txtContraseña.Text);
+               // datos.InsertarProveedor(txtNombre.Text, int.Parse(txtRuc.Text), txtCorreo.Text, txtContraseña.Text);
                 MessageBox.Show("Se ha insertado correctamente los datos");
             }
             catch (FormatException)

@@ -16,7 +16,7 @@ namespace MODULO_ORDEN_DE_COMPRA
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormRegistrarOrden());
+            //Application.Run(new FormRegistrarOrden());
         }
     }
 }

@@ -58,9 +58,10 @@
             this.panelLogo = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.lblNombre = new System.Windows.Forms.Label();
             this.panelContenedor = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panelPrincipal.SuspendLayout();
             this.panelSubmenuCompra.SuspendLayout();
             this.panelSubmenuTransporte.SuspendLayout();
@@ -70,8 +71,8 @@
             this.panelLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelContenedor.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panelPrincipal
@@ -93,7 +94,7 @@
             this.panelPrincipal.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelPrincipal.Location = new System.Drawing.Point(0, 0);
             this.panelPrincipal.Name = "panelPrincipal";
-            this.panelPrincipal.Size = new System.Drawing.Size(243, 506);
+            this.panelPrincipal.Size = new System.Drawing.Size(243, 647);
             this.panelPrincipal.TabIndex = 0;
             // 
             // btnFactura
@@ -104,13 +105,13 @@
             this.btnFactura.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFactura.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFactura.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnFactura.Location = new System.Drawing.Point(0, 709);
+            this.btnFactura.Location = new System.Drawing.Point(0, 717);
             this.btnFactura.Name = "btnFactura";
             this.btnFactura.Size = new System.Drawing.Size(226, 40);
             this.btnFactura.TabIndex = 11;
             this.btnFactura.Text = "FACTURA";
             this.btnFactura.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnFactura.UseVisualStyleBackColor = false;
+            this.btnFactura.UseVisualStyleBackColor = true;
             this.btnFactura.Click += new System.EventHandler(this.btnFactura_Click);
             // 
             // panelSubmenuCompra
@@ -120,7 +121,7 @@
             this.panelSubmenuCompra.Controls.Add(this.btnModificarCompra);
             this.panelSubmenuCompra.Controls.Add(this.btnRegistrarCompra);
             this.panelSubmenuCompra.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubmenuCompra.Location = new System.Drawing.Point(0, 621);
+            this.panelSubmenuCompra.Location = new System.Drawing.Point(0, 629);
             this.panelSubmenuCompra.Name = "panelSubmenuCompra";
             this.panelSubmenuCompra.Size = new System.Drawing.Size(226, 88);
             this.panelSubmenuCompra.TabIndex = 10;
@@ -190,13 +191,13 @@
             this.btnCompra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCompra.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCompra.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnCompra.Location = new System.Drawing.Point(0, 591);
+            this.btnCompra.Location = new System.Drawing.Point(0, 599);
             this.btnCompra.Name = "btnCompra";
             this.btnCompra.Size = new System.Drawing.Size(226, 30);
             this.btnCompra.TabIndex = 9;
             this.btnCompra.Text = "ORDEN DE COMPRA";
             this.btnCompra.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCompra.UseVisualStyleBackColor = false;
+            this.btnCompra.UseVisualStyleBackColor = true;
             this.btnCompra.Click += new System.EventHandler(this.btnCompra_Click);
             // 
             // panelSubmenuTransporte
@@ -206,7 +207,7 @@
             this.panelSubmenuTransporte.Controls.Add(this.btnModificarEmpresa);
             this.panelSubmenuTransporte.Controls.Add(this.btnRegistrarEmpresa);
             this.panelSubmenuTransporte.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubmenuTransporte.Location = new System.Drawing.Point(0, 504);
+            this.panelSubmenuTransporte.Location = new System.Drawing.Point(0, 512);
             this.panelSubmenuTransporte.Name = "panelSubmenuTransporte";
             this.panelSubmenuTransporte.Size = new System.Drawing.Size(226, 87);
             this.panelSubmenuTransporte.TabIndex = 8;
@@ -279,7 +280,7 @@
             this.btnTransporte.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTransporte.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTransporte.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnTransporte.Location = new System.Drawing.Point(0, 468);
+            this.btnTransporte.Location = new System.Drawing.Point(0, 476);
             this.btnTransporte.Name = "btnTransporte";
             this.btnTransporte.Size = new System.Drawing.Size(226, 36);
             this.btnTransporte.TabIndex = 7;
@@ -295,7 +296,7 @@
             this.panelSubmenuCatalogo.Controls.Add(this.btnModificarProducto);
             this.panelSubmenuCatalogo.Controls.Add(this.btnRegistrarProducto);
             this.panelSubmenuCatalogo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubmenuCatalogo.Location = new System.Drawing.Point(0, 380);
+            this.panelSubmenuCatalogo.Location = new System.Drawing.Point(0, 388);
             this.panelSubmenuCatalogo.Name = "panelSubmenuCatalogo";
             this.panelSubmenuCatalogo.Size = new System.Drawing.Size(226, 88);
             this.panelSubmenuCatalogo.TabIndex = 6;
@@ -370,7 +371,7 @@
             this.btnCatalogo.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.btnCatalogo.Location = new System.Drawing.Point(0, 344);
             this.btnCatalogo.Name = "btnCatalogo";
-            this.btnCatalogo.Size = new System.Drawing.Size(226, 36);
+            this.btnCatalogo.Size = new System.Drawing.Size(226, 44);
             this.btnCatalogo.TabIndex = 5;
             this.btnCatalogo.Text = "PRODUCTOS DE CATALOGO";
             this.btnCatalogo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -490,7 +491,7 @@
             this.btnEliminarUsuario.Margin = new System.Windows.Forms.Padding(0);
             this.btnEliminarUsuario.Name = "btnEliminarUsuario";
             this.btnEliminarUsuario.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnEliminarUsuario.Size = new System.Drawing.Size(226, 28);
+            this.btnEliminarUsuario.Size = new System.Drawing.Size(226, 31);
             this.btnEliminarUsuario.TabIndex = 2;
             this.btnEliminarUsuario.Text = "Eliminar";
             this.btnEliminarUsuario.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -557,6 +558,7 @@
             // 
             // panelLogo
             // 
+            this.panelLogo.Controls.Add(this.lblNombre);
             this.panelLogo.Controls.Add(this.pictureBox1);
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
@@ -568,23 +570,35 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.LightBlue;
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
             this.pictureBox1.Image = global::PROYECTO_TELESHOPPING.Properties.Resources.productomaterial;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(226, 99);
+            this.pictureBox1.Size = new System.Drawing.Size(316, 99);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.UseWaitCursor = true;
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.DarkSlateGray;
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(243, 448);
+            this.panel1.Location = new System.Drawing.Point(243, 589);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(702, 58);
+            this.panel1.Size = new System.Drawing.Size(801, 58);
             this.panel1.TabIndex = 1;
+            // 
+            // lblNombre
+            // 
+            this.lblNombre.AutoSize = true;
+            this.lblNombre.Location = new System.Drawing.Point(3, 82);
+            this.lblNombre.Name = "lblNombre";
+            this.lblNombre.Size = new System.Drawing.Size(46, 17);
+            this.lblNombre.TabIndex = 10;
+            this.lblNombre.Text = "label1";
+            this.lblNombre.Click += new System.EventHandler(this.lblNombre_Click);
             // 
             // panelContenedor
             // 
@@ -594,31 +608,18 @@
             this.panelContenedor.Controls.Add(this.pictureBox2);
             this.panelContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelContenedor.Location = new System.Drawing.Point(243, 0);
-            this.panelContenedor.MaximumSize = new System.Drawing.Size(702, 448);
-            this.panelContenedor.MinimumSize = new System.Drawing.Size(702, 448);
+            this.panelContenedor.MaximumSize = new System.Drawing.Size(800, 550);
+            this.panelContenedor.MinimumSize = new System.Drawing.Size(702, 590);
             this.panelContenedor.Name = "panelContenedor";
-            this.panelContenedor.Size = new System.Drawing.Size(702, 448);
+            this.panelContenedor.Size = new System.Drawing.Size(800, 590);
             this.panelContenedor.TabIndex = 2;
             this.panelContenedor.Paint += new System.Windows.Forms.PaintEventHandler(this.panelContenedor_Paint);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox2.Image = global::PROYECTO_TELESHOPPING.Properties.Resources.proveedor;
-            this.pictureBox2.Location = new System.Drawing.Point(153, 82);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(404, 296);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
             // 
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.Image = global::PROYECTO_TELESHOPPING.Properties.Resources.cierre;
-            this.pictureBox3.Location = new System.Drawing.Point(589, 11);
+            this.pictureBox3.Location = new System.Drawing.Point(654, 36);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(100, 50);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -626,11 +627,24 @@
             this.pictureBox3.TabStop = false;
             this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox2.Image = global::PROYECTO_TELESHOPPING.Properties.Resources.proveedor;
+            this.pictureBox2.Location = new System.Drawing.Point(242, 152);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(340, 335);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
             // FormMenuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(945, 506);
+            this.ClientSize = new System.Drawing.Size(1044, 647);
             this.Controls.Add(this.panelContenedor);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panelPrincipal);
@@ -648,10 +662,11 @@
             this.panelSubmenuProveedor.ResumeLayout(false);
             this.panelSubmenuUsuario.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);
+            this.panelLogo.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panelContenedor.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -685,11 +700,12 @@
         private System.Windows.Forms.Button btnModificarCompra;
         private System.Windows.Forms.Button btnRegistrarCompra;
         private System.Windows.Forms.Button btnCompra;
-        private System.Windows.Forms.Button btnFactura;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panelContenedor;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Label lblNombre;
+        public System.Windows.Forms.Button btnFactura;
     }
 }

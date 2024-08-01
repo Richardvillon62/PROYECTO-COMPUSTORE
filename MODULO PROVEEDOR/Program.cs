@@ -16,7 +16,7 @@ namespace MODULO_PROVEEDOR
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormRegistrarProveedor());
+            Application.Run(new FormModificarProveedor());
         }
     }
 }

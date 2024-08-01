@@ -17,7 +17,7 @@ namespace MODULO_USUARIO
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormRegistarUsuario());
+            Application.Run(new FormModificarUsuario());
            
         }
     }

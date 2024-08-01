@@ -35,9 +35,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Data.SqlClient, Version=4.6.1.6, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\PROYECTO TELESHOPPING\packages\System.Data.SqlClient.4.8.6\lib\net461\System.Data.SqlClient.dll</HintPath>
-    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -49,18 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormEliminarOrden.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormEliminarOrden.Designer.cs">
-      <DependentUpon>FormEliminarOrden.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormModificarOrden.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormModificarOrden.Designer.cs">
-      <DependentUpon>FormModificarOrden.cs</DependentUpon>
-    </Compile>
     <Compile Include="FormRegistrarOrden.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +54,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormRegistrarOrden.resx">
+      <DependentUpon>FormRegistrarOrden.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -77,8 +65,8 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
-    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -91,6 +79,26 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cierre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DATOS_TSP\DATOS_TSP.csproj">
+      <Project>{e7b69279-b3f7-42c1-8c59-16872d15f0c0}</Project>
+      <Name>DATOS_TSP</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MODULO FACTURA\MODULO FACTURA.csproj">
+      <Project>{dcab5712-5140-447a-b05a-0506214fb9ad}</Project>
+      <Name>MODULO FACTURA</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MODULO PRODUCTOS DE CATALOGO\MODULO PRODUCTOS DE CATALOGO.csproj">
+      <Project>{a68336a6-2ef7-4e2f-96d3-7a33c61f0eb7}</Project>
+      <Name>MODULO PRODUCTOS DE CATALOGO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

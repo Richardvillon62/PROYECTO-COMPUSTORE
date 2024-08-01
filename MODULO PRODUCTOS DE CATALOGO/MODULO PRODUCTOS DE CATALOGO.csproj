@@ -35,9 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Data.SqlClient, Version=4.6.1.6, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\PROYECTO TELESHOPPING\packages\System.Data.SqlClient.4.8.6\lib\net461\System.Data.SqlClient.dll</HintPath>
-    </Reference>
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -49,11 +47,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormCatalogoProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCatalogoProductos.Designer.cs">
+      <DependentUpon>FormCatalogoProductos.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormEliminarProducto.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormEliminarProducto.Designer.cs">
       <DependentUpon>FormEliminarProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormListaProductos.Designer.cs">
+      <DependentUpon>FormListaProductos.cs</DependentUpon>
     </Compile>
     <Compile Include="FormModificarProducto.cs">
       <SubType>Form</SubType>
@@ -67,16 +77,31 @@
     <Compile Include="FormRegistrarProducto.Designer.cs">
       <DependentUpon>FormRegistrarProducto.cs</DependentUpon>
     </Compile>
+    <Compile Include="PlantillaProductos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PlantillaProductos.Designer.cs">
+      <DependentUpon>PlantillaProductos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormCatalogoProductos.resx">
+      <DependentUpon>FormCatalogoProductos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormEliminarProducto.resx">
       <DependentUpon>FormEliminarProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormListaProductos.resx">
+      <DependentUpon>FormListaProductos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormModificarProducto.resx">
       <DependentUpon>FormModificarProducto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormRegistrarProducto.resx">
       <DependentUpon>FormRegistrarProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlantillaProductos.resx">
+      <DependentUpon>PlantillaProductos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -86,8 +111,9 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
-    <None Include="packages.config" />
+    <None Include=".editorconfig" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -100,6 +126,62 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cierre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DATOS_TSP\DATOS_TSP.csproj">
+      <Project>{E7B69279-B3F7-42C1-8C59-16872D15F0C0}</Project>
+      <Name>DATOS_TSP</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Menssage Exception\Menssage Exception.csproj">
+      <Project>{F7EA89B6-F847-4F40-8FD3-6D54F7A63DBE}</Project>
+      <Name>Menssage Exception</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MODULO FACTURA\MODULO FACTURA.csproj">
+      <Project>{DCAB5712-5140-447A-B05A-0506214FB9AD}</Project>
+      <Name>MODULO FACTURA</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn Eliminar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnModificar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modificar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton modificar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\registro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn Guardar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2703075_invoice_bill_document_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\productos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\compra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4698590_basket_buy_ecommerce_online_shopping_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8333853_add_to_cart_trolley_shopping_icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

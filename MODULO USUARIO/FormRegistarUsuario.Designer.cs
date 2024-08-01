@@ -42,10 +42,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Tw Cen MT Condensed Extra Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Segoe Print", 20.25F, System.Drawing.FontStyle.Bold);
+            this.label1.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.label1.Location = new System.Drawing.Point(209, 62);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(137, 22);
+            this.label1.Size = new System.Drawing.Size(252, 47);
             this.label1.TabIndex = 0;
             this.label1.Text = "Registrar usuario";
             // 
@@ -130,7 +131,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightBlue;
-            this.ClientSize = new System.Drawing.Size(686, 409);
+            this.ClientSize = new System.Drawing.Size(686, 451);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtContraseña);
             this.Controls.Add(this.label2);
@@ -140,8 +141,8 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
-            this.MaximumSize = new System.Drawing.Size(702, 448);
-            this.MinimumSize = new System.Drawing.Size(702, 448);
+            this.MaximumSize = new System.Drawing.Size(702, 490);
+            this.MinimumSize = new System.Drawing.Size(702, 490);
             this.Name = "FormRegistarUsuario";
             this.Text = "FormRegistrarUsuario";
             this.ResumeLayout(false);

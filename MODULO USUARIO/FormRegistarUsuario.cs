@@ -23,7 +23,7 @@ namespace MODULO_USUARIO
         {
             try
             {
-                datos.InsertarUsuario(txtNombre.Text, txtCorreo.Text, txtContraseña.Text);
+                //datos.InsertarUsuario(txtNombre.Text, txtCorreo.Text, txtContraseña.Text);
                 MessageBox.Show("Se ha insertado correctamente los datos");
             }
             catch (FormatException)

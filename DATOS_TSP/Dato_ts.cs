@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing;
 
-/*GRUPO C*/
+/*GRUPO D*/
 namespace DATOS_TSP
 {
     public class Dato_ts
@@ -21,7 +21,7 @@ namespace DATOS_TSP
         public SqlConnection AbrirConexion()
         {
             if (conexion.State == ConnectionState.Closed)
-                conexion.Open();
+                conexion.Open(); 
             return conexion;
         }
         /*metodo para usar en los demas modulos para cerrar la conexion*/
@@ -32,13 +32,13 @@ namespace DATOS_TSP
 
             return conexion;
         }
-        private static Dato_ts datos_COMPUSTORE = new Dato_ts();
+        private static Dato_ts datos_teleshopping = new Dato_ts();
         /*Constructor*/
         public Dato_ts() { }
         /*Metodo static que retorna toda la clase*/
         public static Dato_ts getObject()
         {
-            return datos_COMPUSTORE;
+            return datos_teleshopping;
         }
 
 
@@ -140,7 +140,7 @@ namespace DATOS_TSP
             }
             catch (Exception ex)
             {
-
+                
                 MessageBox.Show($"Error al eliminar el usuario: {ex.Message}");
             }
             finally
@@ -197,7 +197,7 @@ namespace DATOS_TSP
                     data.Fill(usuariosDataTable);
                 }
             }
-            return usuariosDataTable;
+            return usuariosDataTable;         
         }
 
         /*Metodo StoredProcedure con parametros para insertar proveedor */
@@ -243,7 +243,7 @@ namespace DATOS_TSP
                             proveedores.Add(reader["nombre_completo"].ToString());
                         }
                     }
-                }
+                }               
             }
             catch (Exception ex)
             {

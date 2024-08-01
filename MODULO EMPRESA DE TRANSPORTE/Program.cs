@@ -16,7 +16,7 @@ namespace MODULO_EMPRESA_DE_TRANSPORTE
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormRegistrarEmpresa());
+            Application.Run(new FormModificarEmpresa());
         }
     }
 }
