@@ -56,9 +56,9 @@
             this.btnRegistrarUsuario = new System.Windows.Forms.Button();
             this.btnUsuario = new System.Windows.Forms.Button();
             this.panelLogo = new System.Windows.Forms.Panel();
+            this.lblNombre = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.lblNombre = new System.Windows.Forms.Label();
             this.panelContenedor = new System.Windows.Forms.Panel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -178,7 +178,7 @@
             this.btnRegistrarCompra.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.btnRegistrarCompra.Size = new System.Drawing.Size(226, 26);
             this.btnRegistrarCompra.TabIndex = 0;
-            this.btnRegistrarCompra.Text = "Regristar";
+            this.btnRegistrarCompra.Text = "Registar";
             this.btnRegistrarCompra.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRegistrarCompra.UseVisualStyleBackColor = false;
             this.btnRegistrarCompra.Click += new System.EventHandler(this.btnRegistrarCompra_Click);
@@ -267,7 +267,7 @@
             this.btnRegistrarEmpresa.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.btnRegistrarEmpresa.Size = new System.Drawing.Size(226, 26);
             this.btnRegistrarEmpresa.TabIndex = 0;
-            this.btnRegistrarEmpresa.Text = "Regristar";
+            this.btnRegistrarEmpresa.Text = "Registar";
             this.btnRegistrarEmpresa.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRegistrarEmpresa.UseVisualStyleBackColor = false;
             this.btnRegistrarEmpresa.Click += new System.EventHandler(this.btnRegistrarEmpresa_Click);
@@ -356,7 +356,7 @@
             this.btnRegistrarProducto.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.btnRegistrarProducto.Size = new System.Drawing.Size(226, 26);
             this.btnRegistrarProducto.TabIndex = 0;
-            this.btnRegistrarProducto.Text = "Regristar";
+            this.btnRegistrarProducto.Text = "Registar";
             this.btnRegistrarProducto.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRegistrarProducto.UseVisualStyleBackColor = false;
             this.btnRegistrarProducto.Click += new System.EventHandler(this.btnRegistrarProducto_Click);
@@ -445,7 +445,7 @@
             this.btnRegistrarProveedor.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.btnRegistrarProveedor.Size = new System.Drawing.Size(226, 26);
             this.btnRegistrarProveedor.TabIndex = 0;
-            this.btnRegistrarProveedor.Text = "Regristar";
+            this.btnRegistrarProveedor.Text = "Registar";
             this.btnRegistrarProveedor.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRegistrarProveedor.UseVisualStyleBackColor = false;
             this.btnRegistrarProveedor.Click += new System.EventHandler(this.btnRegistrarProveedor_Click);
@@ -534,7 +534,7 @@
             this.btnRegistrarUsuario.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.btnRegistrarUsuario.Size = new System.Drawing.Size(226, 26);
             this.btnRegistrarUsuario.TabIndex = 0;
-            this.btnRegistrarUsuario.Text = "Regristar";
+            this.btnRegistrarUsuario.Text = "Registar";
             this.btnRegistrarUsuario.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRegistrarUsuario.UseVisualStyleBackColor = false;
             this.btnRegistrarUsuario.Click += new System.EventHandler(this.btnRegistrarUsuario_Click);
@@ -567,6 +567,16 @@
             this.panelLogo.TabIndex = 0;
             this.panelLogo.Paint += new System.Windows.Forms.PaintEventHandler(this.panelLogo_Paint);
             // 
+            // lblNombre
+            // 
+            this.lblNombre.AutoSize = true;
+            this.lblNombre.Location = new System.Drawing.Point(3, 82);
+            this.lblNombre.Name = "lblNombre";
+            this.lblNombre.Size = new System.Drawing.Size(46, 17);
+            this.lblNombre.TabIndex = 10;
+            this.lblNombre.Text = "label1";
+            this.lblNombre.Click += new System.EventHandler(this.lblNombre_Click);
+            // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.LightBlue;
@@ -589,16 +599,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(801, 58);
             this.panel1.TabIndex = 1;
-            // 
-            // lblNombre
-            // 
-            this.lblNombre.AutoSize = true;
-            this.lblNombre.Location = new System.Drawing.Point(3, 82);
-            this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(46, 17);
-            this.lblNombre.TabIndex = 10;
-            this.lblNombre.Text = "label1";
-            this.lblNombre.Click += new System.EventHandler(this.lblNombre_Click);
             // 
             // panelContenedor
             // 
