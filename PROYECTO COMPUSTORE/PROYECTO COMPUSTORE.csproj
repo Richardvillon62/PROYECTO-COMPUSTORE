@@ -73,6 +73,12 @@
     <Compile Include="FormMenuPrincipal.Designer.cs">
       <DependentUpon>FormMenuPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormRegistro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRegistro.Designer.cs">
+      <DependentUpon>FormRegistro.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormInicio.resx">
@@ -86,6 +92,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormMenuPrincipal.resx">
       <DependentUpon>FormMenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRegistro.resx">
+      <DependentUpon>FormRegistro.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -115,6 +124,10 @@
     <ProjectReference Include="..\DATOS_TSP\DATOS_TSP.csproj">
       <Project>{e7b69279-b3f7-42c1-8c59-16872d15f0c0}</Project>
       <Name>DATOS_TSP</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Menssage Exception\Menssage Exception.csproj">
+      <Project>{f7ea89b6-f847-4f40-8fd3-6d54f7a63dbe}</Project>
+      <Name>Menssage Exception</Name>
     </ProjectReference>
     <ProjectReference Include="..\MODULO EMPRESA DE TRANSPORTE\MODULO EMPRESA DE TRANSPORTE.csproj">
       <Project>{3dcba620-0e9d-40c2-a0b7-cd05755c903a}</Project>

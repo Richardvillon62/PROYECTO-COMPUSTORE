@@ -34,6 +34,7 @@ namespace PROYECTO_COMPUSTORE
             panelSubmenuCatalogo.Visible = false;
             panelSubmenuTransporte.Visible = false;
             panelSubmenuCompra.Visible = false;
+            
         }
 
         private void hideSubMenu()
@@ -52,6 +53,7 @@ namespace PROYECTO_COMPUSTORE
 
             if (panelSubmenuCompra.Visible == true)
                 panelSubmenuCompra.Visible = false;
+            
         }
 
         private void showSubmenu(Panel SubMenu)
@@ -79,6 +81,11 @@ namespace PROYECTO_COMPUSTORE
             conten.BringToFront();
             conten.Show();
 
+        }
+
+        public void SetNombre_Usuario(string nombre)
+        {
+            lblNombre.Text = "Bienvenido, " + nombre;
         }
 
         private void btnUsuario_Click(object sender, EventArgs e)
@@ -186,19 +193,19 @@ namespace PROYECTO_COMPUSTORE
 
         private void btnRegistrarCompra_Click(object sender, EventArgs e)
         {
-            contenedores(new FormRegistrarOrden());
+            //contenedores(new FormRegistrarOrden());
             hideSubMenu();
         }
 
         private void btnModificarCompra_Click(object sender, EventArgs e)
         {
-            contenedores(new FormModificarOrden());
+            //contenedores(new FormModificarOrden());
             hideSubMenu();
         }
 
         private void btnEliminarCompra_Click(object sender, EventArgs e)
         {
-            contenedores(new FormEliminarOrden());
+            //contenedores(new FormEliminarOrden());
             hideSubMenu();
         }
 
@@ -222,6 +229,11 @@ namespace PROYECTO_COMPUSTORE
             this.Hide();
             FormLogin login = new FormLogin();
             login.Show();
+        }
+
+        private void lblNombre_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

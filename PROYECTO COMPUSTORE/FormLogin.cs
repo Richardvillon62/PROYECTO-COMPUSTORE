@@ -10,8 +10,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using DATOS_TSP;
 using MODULO_USUARIO;
-using PROYECTO_TELESHOPPING;
+using Menssage_Exception;
 
+/*GRUPO C*/
 namespace PROYECTO_COMPUSTORE
 {
     public partial class FormLogin : Form
@@ -74,34 +75,34 @@ namespace PROYECTO_COMPUSTORE
                         MessageBox.Show("Usuario Cliente");
                         p.SetNombre_Usuario(nombreUsuario);
                         p.Show();
-                        p.btnProveedor.Enabled = false;
-                        p.btnTransporte.Enabled = false;
+                        //p.btnProveedor.Enabled = false;
+                        //p.btnTransporte.Enabled = false;
                     }
                     else if (table.Rows[0][1].ToString() == "Proveedor")
                     {
                         MessageBox.Show("Usuario Proveedor");
-                        p.SetNombre_Usuario(nombreUsuario);
+                        //p.SetNombre_Usuario(nombreUsuario);
                         p.Show();
-                        p.btnUsuario.Enabled = false;
-                        p.btnTransporte.Enabled = false;
-                        p.btnCatalogo.Enabled = false;
+                        //p.btnUsuario.Enabled = false;
+                        //p.btnTransporte.Enabled = false;
+                        //p.btnCatalogo.Enabled = false;
 
                     }
                     else if (table.Rows[0][1].ToString() == "Empresa de transporte")
                     {
 
                         MessageBox.Show("Usuario Empresa de transporte");
-                        p.SetNombre_Usuario(nombreUsuario);
+                        //p.SetNombre_Usuario(nombreUsuario);
                         p.Show();
-                        p.btnUsuario.Enabled = false;
-                        p.btnCatalogo.Enabled = false;
-                        p.btnProveedor.Enabled = false;
+                        //p.btnUsuario.Enabled = false;
+                        //p.btnCatalogo.Enabled = false;
+                        //p.btnProveedor.Enabled = false;
 
                     }
                 }
                 else
                 {
-                    throw new ExcepcionUsuarioNoExistente("Usuario / contraseña no existen");
+                    //throw new ExcepcionUsuarioNoExistente("Usuario / contraseña no existen");
 
                 }
             }
@@ -154,6 +155,13 @@ namespace PROYECTO_COMPUSTORE
         }
 
         private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormInicio inicio = new FormInicio();
+            inicio.Show();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
         {
             this.Hide();
             FormInicio inicio = new FormInicio();
